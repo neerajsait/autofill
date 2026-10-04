@@ -1,27 +1,70 @@
 # autofill
 
-> A Chrome extension for saving form profiles and filling supported fields.
+> Browser-based autofill automation tool built with JavaScript
 
-## Overview
+Built with JavaScript and focused on autofill, automation, browser-extension, javascript.
 
-AutoFill stores reusable profiles in the browser and can fill forms on demand. The extension also includes record, import/export, and optional encryption features described in its project documentation.
+## About this project
 
-## What’s in this repo
-
-- Multiple profiles and supported text, email, date, phone, select, and number fields
-- Manual fill and field-recording workflows
-- JSON import/export and optional CryptoJS-based protection
-
-## Stack
-
-JavaScript, Chrome Extension APIs, HTML, CSS, and CryptoJS.
+This repository is part of **Neeraj Sai's** growing collection of software projects, experiments, and learning builds. It reflects a practical, curious approach to creating useful products and understanding how they work under the hood.
 
 ## Getting started
 
-1. Open `chrome://extensions` and turn on Developer mode.
-2. Choose Load unpacked and select this repository’s folder.
-3. Create a profile in the extension popup and test it on a page you control.
+Clone the repository and follow the setup instructions for the project's framework or language:
 
-## Notes
+```bash
+git clone https://github.com/neerajsait/autofill.git
+cd autofill
+```
 
-Saved form data can be sensitive. Review how local storage and the optional encryption key work before saving personal information; never test autofill on forms without permission.
+Check the project files for the available run commands and configuration requirements.
+
+## Links
+
+[Repository](https://github.com/neerajsait/autofill)
+
+## Author
+
+**Tiruveedhi Neeraj Venkata Sai**
+
+- GitHub: [@neerajsait](https://github.com/neerajsait)
+- Portfolio: [neeraj's portfolio](https://github.com/neerajsait/portfoliomain)
+
+
+## Existing project documentation
+
+# 🧠 AutoFill Chrome Extension
+
+**AutoFill** is a simple and smart Chrome extension designed for personal use to auto-fill forms instantly with saved profile data. Whether you're filling job applications, college forms, or surveys, this tool saves time by eliminating repetitive typing.
+
+---
+
+## 🌟 Features
+
+- 🔹 Save and manage multiple form profiles
+- 🔒 Optional encryption using a custom key (CryptoJS)
+- ⚡ One-click auto-fill functionality
+- 🔄 Export/Import profiles (JSON support)
+- 🧠 Record mode for dynamic field detection
+- 🗑️ Delete saved profiles anytime
+- 📦 Supports text, email, date, phone, select, and number fields
+
+---
+
+## 🧪 How to Use
+
+1. Click the extension icon to open the popup.
+2. Create a new profile with your form data (Name, Email, DOB, etc.)
+3. Optionally enter an encryption key to protect sensitive data.
+4. Save your profile.
+5. Select a profile and click **Fill Form** — your fields are auto-filled.
+6. Use **Record Mode** to detect and save new fields automatically.
+7. Export or Import profiles using JSON for easy backup.
+
+---
+
+## 🛠️ Installation (Manual for Development)
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/neerajsait/autofill.git
